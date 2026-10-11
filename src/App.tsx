@@ -1,8 +1,11 @@
+import nordiciqN from '../nordiciq-n.png';
+import nordiciqLogoMork from '../nordiciq-logo-mork-bakgrunn.png';
+
 export default function App() {
   return (
     <>
       <section className="hero">
-        <img src="/nordiciq-n.png" alt="NordicIQ" className="hero-logo" />
+        <img src={nordiciqN} alt="NordicIQ" className="hero-logo" />
         <h1>
           AI Andorra
           <br />
@@ -145,7 +148,7 @@ export default function App() {
       </section>
 
       <footer>
-        <img src="/nordiciq-logo-mork-bakgrunn.png" alt="NordicIQ" className="footer-logo" />
+        <img src={nordiciqLogoMork} alt="NordicIQ" className="footer-logo" />
         <p>© {new Date().getFullYear()} NordicIQ</p>
       </footer>
     </>
