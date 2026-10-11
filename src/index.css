@@ -26,7 +26,7 @@ body {
   background-size: 40px 40px;
   color: #F3F4F6;
   text-align: center;
-  padding: 4rem 1.5rem;
+  padding: 5rem 1.5rem 4rem;
 }
 
 /* Fade the grid at the edges */
@@ -51,9 +51,9 @@ body {
 }
 
 .hero-logo {
-  width: 80px;
+  width: 90px;
   height: auto;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .hero h1 {
@@ -345,24 +345,30 @@ footer {
   background-color: #111827;
   color: #9CA3AF;
   text-align: center;
-  padding: 1.5rem;
+  padding: 2.5rem 1.5rem;
   border-top: 1px solid #1F2937;
 }
 
 .footer-logo {
-  width: 120px;
+  width: 140px;
   height: auto;
-  margin-bottom: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+footer p {
+  font-size: 0.875rem;
+  color: #6B7280;
 }
 
 /* ── Desktop (≥768 px) ────────────────────────────────── */
 @media (min-width: 768px) {
   .hero {
-    padding: 6rem 2rem;
+    padding: 6rem 2rem 5rem;
   }
 
   .hero-logo {
-    width: 100px;
+    width: 120px;
+    margin-bottom: 2.5rem;
   }
 
   .hero h1 {
@@ -414,7 +420,11 @@ footer {
     font-size: 2rem;
   }
 
+  footer {
+    padding: 3rem 2rem;
+  }
+
   .footer-logo {
-    width: 150px;
+    width: 160px;
   }
 }
