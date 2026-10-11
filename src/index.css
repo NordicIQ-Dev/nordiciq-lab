@@ -44,9 +44,16 @@ body {
 
 .hero h1,
 .hero p,
-.hero-buttons {
+.hero-buttons,
+.hero-logo {
   position: relative;
   z-index: 1;
+}
+
+.hero-logo {
+  width: 80px;
+  height: auto;
+  margin-bottom: 1.5rem;
 }
 
 .hero h1 {
@@ -342,10 +349,20 @@ footer {
   border-top: 1px solid #1F2937;
 }
 
+.footer-logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 0.75rem;
+}
+
 /* ── Desktop (≥768 px) ────────────────────────────────── */
 @media (min-width: 768px) {
   .hero {
     padding: 6rem 2rem;
+  }
+
+  .hero-logo {
+    width: 100px;
   }
 
   .hero h1 {
@@ -395,5 +412,9 @@ footer {
 
   .banner-text {
     font-size: 2rem;
+  }
+
+  .footer-logo {
+    width: 150px;
   }
 }
